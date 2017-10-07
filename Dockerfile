@@ -1,4 +1,4 @@
-FROM python:3.6.2
+FROM python:3.6
 
 # Use python script to get all dependencies of texlive-full, then filter
 # out the *-doc ones and install. Finally, clean up temporary files.
